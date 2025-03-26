@@ -1,0 +1,97 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "enciclopedia peliculas",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NotaIntent",
+                    "slots": [
+                        {
+                            "name": "movieTitle",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Qué puntuación tiene la película {movieTitle} ",
+                        "Dime la nota de {movieTitle}",
+                        "Cuál es la calificación de {movieTitle}"
+                    ]
+                },
+                {
+                    "name": "VotosIntent",
+                    "slots": [
+                        {
+                            "name": "movieTitle",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Cuántos votos tiene {movieTitle}",
+                        "Dime la cantidad de votos de {movieTitle}"
+                    ]
+                },
+                {
+                    "name": "SinopsisIntent",
+                    "slots": [
+                        {
+                            "name": "movieTitle",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Cuál es la sinopsis de {movieTitle}",
+                        "Dame un resumen de {movieTitle}",
+                        "De qué trata {movieTitle}"
+                    ]
+                },
+                {
+                    "name": "DirectorIntent",
+                    "slots": [
+                        {
+                            "name": "movieTitle",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Quién dirigió {movieTitle}",
+                        "Dime el director de {movieTitle}"
+                    ]
+                },
+                {
+                    "name": "DurationIntent",
+                    "slots": [
+                        {
+                            "name": "movieTitle",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Cuánto dura {movieTitle}",
+                        "Dime la duración de {movieTitle}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
