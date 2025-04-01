@@ -1,6 +1,8 @@
 # Alexa IMDb Movie Data Skill
 ## Overview
-This Alexa Skill retrieves movie data from IMDb using web scraping. Users can ask Alexa for details about a movie, such as its rating, release date, and synopsis.
+This Alexa Skill retrieves movie data from IMDb using web scraping. Users can ask Alexa for details about a movie, such as its rating, release date, and synopsis. 
+
+[Demonstration Video](https://drive.google.com/file/d/1HKvHCJg_KMZg0bvK7EdFoFns2EJPdUQO/view?usp=drive_link)
 
 ## Features
 - Fetch movie details from IMDb.
@@ -10,6 +12,8 @@ This Alexa Skill retrieves movie data from IMDb using web scraping. Users can as
 ## Deployment
 The project was deployed in the Amazon Developer Console. The *peliculas_alexadev.py* Python script was used to test and improve the skill. The *peliculas_cl.py* can be used via the command line to retrieve movie information.
 
+**Important: The project was devloped in Spanish.**
+
 ## Requirements
 - AWS Lambda (for backend processing)
 - Alexa Skills Kit (ASK) SDK
@@ -18,9 +22,9 @@ The project was deployed in the Amazon Developer Console. The *peliculas_alexade
 - Requests (for HTTP requests)
 
 ## Collaborators
-Natalia Klinik
-Inés Mota
-Ren Larrumbide Lin
+Natalia Klinik  
+Inés Mota  
+Ren Larrumbide Lin  
 
 ---
 **Note:** This project serves for educational purposes only. As IMDb’s terms of service do not allow automated scraping, it's recommended to use IMDb API to develop the skill.
