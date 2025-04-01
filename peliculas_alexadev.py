@@ -131,6 +131,3 @@ def buscarIMDb(pelicula=None, detalle=None):
             return detalles  # Si no se proporcionó un detalle, retorna toda la información
 
     return {"Error": "No se encontró una coincidencia exacta."}
-
-if __name__ == "__main__":
-    print(buscarIMDb())  
